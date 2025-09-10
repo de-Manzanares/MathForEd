@@ -4,7 +4,7 @@
 
 int main() {
   while (std::cin.good()) {
-    const int a = util::random_in_range(0, 10);
+    const int a = util::random_in_range(0, 5);
     const int b = util::random_in_range(0, a);
     util::print(a, '-', b, '=');
     util::wait_for_enter();
